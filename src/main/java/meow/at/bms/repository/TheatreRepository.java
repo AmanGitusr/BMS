@@ -10,5 +10,6 @@ import java.util.List;
 @Repository
 public interface TheatreRepository extends JpaRepository<Theatre, Long> {
 
-    List<Theatre> findByShowId(String city);
+    List<Theatre> findByCity(String city);
+
 }

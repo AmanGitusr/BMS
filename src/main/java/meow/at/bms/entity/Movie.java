@@ -23,7 +23,8 @@ public class Movie {
     private String title;
     private String language;
     private String genre;
-    private String durationMins;
+    private String description;
+    private Integer durationMins;
     private String releaseDate;
     private String posterUrl;
 
